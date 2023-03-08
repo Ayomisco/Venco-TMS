@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-08 14:48:25.188055",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "house_number",
+  "street",
+  "city",
+  "state",
+  "zip_code",
+  "number_of_rooms",
+  "number_of_bathrooms",
+  "exterior_view",
+  "interior_view",
+  "rent_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Street",
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "State",
+   "options": "Abia\nAdamawa\nAkwa Ibom\nAnambra\nBauchi\nBayelsa\nBenue\nBorno\nCross River\nDelta\nEbonyi\nEdo\nEkiti\nFCT - Abuja\nGombe\nImo\nJigawa\nKaduna\nKano\nKatsina\nKebbi\nKogi\nKwara\nLagos\nNasarawa\nNiger\nOgun\nOndo\nOsun\nOyo\nPlateau\nRiversTenant  System\nSokoto\nTaraba\nYobe\nZamfara",
+   "reqd": 1
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "label": "Zip Code"
+  },
+  {
+   "fieldname": "number_of_rooms",
+   "fieldtype": "Int",
+   "label": "Number of Rooms"
+  },
+  {
+   "fieldname": "number_of_bathrooms",
+   "fieldtype": "Int",
+   "label": "Number of Bathrooms"
+  },
+  {
+   "fieldname": "exterior_view",
+   "fieldtype": "Attach Image",
+   "label": "House Exterior View Image"
+  },
+  {
+   "fieldname": "interior_view",
+   "fieldtype": "Attach Image",
+   "label": "House Interior View"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "label": "Rent Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-08 14:48:25.188055",
+ "modified_by": "Administrator",
+ "module": "TMS",
+ "name": "House",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
